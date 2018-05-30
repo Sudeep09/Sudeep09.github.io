@@ -1,0 +1,235 @@
+
+* { padding: 0; margin: 0; }
+ul {list-style: disc; padding: 0 0 0 25px;}
+.nested-list {list-style: none;}
+.nested-list li ul {list-style: disc;}
+
+body {
+	background: #fefff7 url(../images/texture-dots.jpg) bottom right repeat;
+	background-attachment:fixed;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	line-height: 130%; 
+ }
+
+/*typography*/
+h1 { 	
+	font: 22px/2.8 Arial, sans-serif;
+	font-weight:normal; 
+	color: black; 
+}
+h2 {
+	font: 20px Arial, sans-serif;
+	font-weight:bold; 
+	color: black; 
+}
+h3 {
+	font: 13px/1.8 Arial, sans-serif;
+	font-weight:bold; 
+	color: black; 
+}
+a { 	
+	text-decoration: none; 
+	color: #ff4200;	
+}
+a:hover { 	
+	text-decoration: none; 
+	color: black; 
+	padding: 1px 0;
+}
+h1, h2, h3	{	
+	color: black; 
+}
+/*..........................................................*/
+#wrapper {
+	position: relative;
+	background-color: #DDF9E0; 	/* stara verzija: #f9f8f4; Change main page background*/
+	margin: 0 auto;
+	width: 1000px;
+	z-index: 3000;
+}
+#header {
+	position: relative;
+	color: #333;
+	width: 1000px;
+	padding: 0px;
+	height: 420px;
+	margin: 0px 0px 0px 0px;
+	background: #58cc13;
+	overflow: visible;
+	z-index: 2500;
+}
+.header-image {
+	height: 160px;
+	width: 100%;
+}
+#logo 			{ 	
+	position: absolute; 
+	z-index: 40; 
+	bottom: 37px; 
+	right: 77px; 
+}
+#navigation-bar {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	color: white;
+	padding: 10px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: black;
+	background: url(../images/opacity70.png) bottom right repeat;
+}
+
+.menu {
+	float: left;
+	padding: 0 20px 0 20px;
+}
+.menu ul { 
+	list-style:none; 
+}
+ul.menu > li {
+	display: inline; 
+	position: relative;
+}
+ul.menu > li a:hover{
+	color: #71b61d;}
+ul.menu > li a{
+	color: white; 
+	font: 14px Arial, sans-serif; 
+	letter-spacing: 0.03em;
+	font-weight: bold;
+	padding: 4px;
+	text-transform: uppercase; 
+}
+ul.menu ul {
+	display: none;
+}
+ul.menu li.sub ul li{
+ 	border-bottom: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: #26450b;             
+	padding:  4px;
+}
+ul.menu li.sub:hover > ul {
+	z-index: 500;
+	display: block; 
+	position: absolute; 
+	white-space: nowrap;
+	background: white;
+	padding: 0;
+}
+ul.menu > li.sub:hover > ul {
+	top: 130%;
+	left: 0;
+}
+ul.menu > li.sub:hover > ul a {
+	color: black; 
+	font-weight: normal;
+	text-transform: none; 
+}
+ul.menu > li.sub:hover > ul li:hover{
+	background: #71b61d;
+}
+ul.menu > li.sub:hover > ul li a:hover{
+	background: #71b61d;
+}
+ul.menu ul li.sub:hover > ul {
+	top: 0; 
+	left: 100%;
+}
+#shadow-left	{ 	
+	position: absolute; 
+	z-index: 50; 
+	bottom: 0px; 
+	left: -14px; 
+}					
+#shadow-right	{ 	
+	position: absolute; 
+	z-index: 50; 
+	bottom: 0px; 
+	right: -14px; 
+}
+#shadow-bottom	{ 
+	position: absolute; 
+	z-index: 50; 
+	bottom: -14px; 
+	left: -14px; 
+}
+#leftcolumn {
+	position: relative;
+	display: inline;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	width: 195px;
+	float: left;
+}
+#side-navigation {
+	position:absolute;
+	top: 260px;
+	right: -55px;
+	z-index: 1000;
+	text-align: right;
+}
+#leftcolumn ul li{
+ 	border-bottom: 6px solid;
+	border-color: #deead0;             
+	padding:  6px 0px 0px 30px;
+}
+#leftcolumn ul {
+	list-style: none;     
+}
+#page-photo{
+	position:absolute;
+	top: 800px;
+	left: -15px;
+	z-index: 100;
+}
+#rightcolumn {
+	float: right;
+	font-size: 14px;
+	min-height: 370px;
+	height:auto !important;									/*   ie min-height  */
+	height: 370px;											   /*                        */
+	margin: 0px 50px 20px 0px;
+	padding: 15px 20px 20px 10px;
+	width: 820px;
+	text-align: justify;
+	display: inline;
+	position: relative;
+}
+#footer {
+	width: 910px;
+	clear: both;
+	color: blue;
+	margin: 20px auto;
+	padding: 5px;
+	text-align: center;
+	opacity: 0.8;
+	background-color: ##fefff7;
+/* background: rgba(255, 255, 255, 0.7);  */
+	border-radius:10px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+}
+.page-footer {
+	font: 10px/2.8 Arial, sans-serif;
+	margin: 20px 0 0 0;
+	opacity: 0.4;
+	border-top: 1px solid;
+}
+.clear { 
+	clear: both; 
+	background: none; 
+}
+#bottom-img		{ 	
+	position: fixed; 
+	z-index: -10; 
+	top: 0px; 
+	left: 0px; 
+	width: 100%;
+	min-width: 1024px;
+	
+}
+

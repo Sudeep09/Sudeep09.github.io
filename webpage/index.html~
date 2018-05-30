@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sudeep Ghosh Home Page</title>
+<link rel="stylesheet" type="text/css" href="Files/main.css">
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="css/ie7-and-down.css" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="css/ie6-and-down.css" />
+<![endif]-->
+<link rel="shortcut icon" href="http://people.iiti.ac.in/index.png">	
+
+</head><body __flashresizer_elements="0">
+
+<!-- Begin Wrapper -->
+	<div id="wrapper">
+         <!-- Begin Header -->
+	<div id="header">	
+	<img src="Files/no.png" alt="no photo" align="right" height="70" width="1000" border="0
+         <div id="header">
+	<img src="Files/webs.png" alt="no photo" align="right" height="365" width="1000" border="0
+		       <img class="header-image" src="Files/iit.jpg" alt="header image">
+			 <!-- Begin Navigation -->
+			 <div id="navigation-bar">
+			<ul class="menu">
+			<li class="sub"><a href="">Home</a>&nbsp;|&nbsp;
+			</li>
+			<li class="sub"><a href="">Personal Details</a>&nbsp;|&nbsp;
+			</li>		
+			<li class="sub"><a href="">Research</a>&nbsp;|&nbsp;
+			</li>
+			<li class="sub"><a href="http://domainname.com/publications.html">Publications</a>&nbsp;|&nbsp;
+			</li>
+			<li class="sub"><a href="">Interests</a>&nbsp;|&nbsp;
+			</li>
+			<li class="sub"><a href="">Passion</a>&nbsp;|&nbsp;						
+			</li>
+			</ul>
+			</div>
+			<!-- End Navigation -->
+		        </div>
+		        <!-- End Header -->
+		        <!-- Begin Left Column -->
+		 
+
+		 
+
+
+
+
+		   <!-- End Left Column -->
+		   <!-- Begin Right Column -->
+	 
+	<div id="rightcolumn">	<h1><font color="RED"> <font face="courier" size="+3"></font></font><center><font color="RED"><font face="courier" size="+3">  </font></font></center></h1>
+	<img src="Files/sudeep.jpg" alt="no photo" align="right" height="220" width="240" border="0/">
+	<div id="rightcolumn">	
+	<h2> Sudeep Ghosh <tiny> </h2>
+	<h2> Research: Dalitz Plot Analysis of Hadronic Decays of eta and etaprime Mesons<tiny> </h2> 
+
+	<p><br> 
+<i>Strong interaction is responsible for the production of pseudo-scalar meson. But the theory not being able to give the suitable explanation for the mass and spontaneous symmetry breaking of η′, which is a pseudo-scalar meson. So as a research problem I selected to study the decay of η′ → ηπ<sup>+</sup>π<sup>−</sup> and obtaining the Dalitz plot for the same. The Dalitz plot is a ternary plot often used in particle physics to represent the relative frequency of various (kinematically distinct) manners in which the products of certain (otherwise similar) three-body decays may move apart. It contains a lot of kinematical information of the reaction; a better understanding of these plots helps the physicist to avoid tedious calculations and helps avoiding incorrect interpretation of the experimental effects. It gives a simple and attractive structure of low energy QCD model. The Jefferson Lab (JLab) at Newport News, USA has an accelerator facility, which provides a very suitable range of energies for production and detection of these light pseudo-scalar mesons and has provided me the data. So my work is concerned with analyzing the data. The work requires high level computation experimental techniques and simulation of different decay channels. This study can answer many hidden mysteries of particle behavior in the low energy regime or the non-perturbative QCD regime.
+	</p> 		   
+	<div id="footer">
+	<strong>E-mail:</strong> sudeepgh09@gmail.com &nbsp;|&nbsp; <strong>Office: </strong>My office is my home &nbsp;|&nbsp; <strong>Phone:</strong> +91-9685315467
+	</div>
+	<!-- End Footer -->
+	<div><img id="bottom-img" src="Files/2.jpg" alt="top image"></div>		
+
+</body></html>
